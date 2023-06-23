@@ -4,31 +4,31 @@ This is a static gym website, Where user can register, login, and also able to s
 
 ## Home page
 
-![screenshot of home page](/src/assets/one.png)
+![screenshot of home page](./src/assets/one.png)
 
 ## AboutUs page
 
-![screenshot of AboutUs page](/src/assets/two.png)
+![screenshot of AboutUs page](assets/two.png)
 
 ## Program page
 
-![screenshot of Program page](/src/assets/three.png)
+![screenshot of Program page](assets/three.png)
 
 ## Pricing page
 
-![screenshot of Pricing page](/src/assets/four.png)
+![screenshot of Pricing page](assets/four.png)
 
 ## Training page
 
-![screenshot of Training page](/src/assets/five.png)
+![screenshot of Training page](assets/five.png)
 
 ## Register page
 
-![screenshot of Register page](/src/assets/six.png)
+![screenshot of Register page](assets/six.png)
 
 ## Login page
 
-![screenshot of Login page](/src/assets/seven.png)
+![screenshot of Login page](assets/seven.png)
 
 ## Deployment:
 This project is deployed on open platform [vercel.com](https://vercel.com/) 
