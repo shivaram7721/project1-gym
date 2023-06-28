@@ -4,7 +4,7 @@ This is a static gym website, Where user can register, login, and also able to s
 
 ## Home page
 
-![screenshot of home page](./src/assets/one.png)
+![screenshot of home page](/src/assets/home.png)
 
 ## AboutUs page
 
