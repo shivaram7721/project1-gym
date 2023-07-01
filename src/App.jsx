@@ -6,7 +6,7 @@ import { Training } from './pages/Training/Training';
 import { Pricing } from './pages/Pricing/Pricing';
 import { Navbar } from './navbar';
 import { Day } from './pages/activity/day';
-import { Monthly } from './pages/activity/Monthly';
+import { Monthly } from './pages/activity/monthly';
 import { Login } from './pages/login/Login';
 import { Register } from './pages/register/Register';
 import { Routes, Route } from 'react-router-dom';
