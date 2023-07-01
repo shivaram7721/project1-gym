@@ -6,7 +6,8 @@
 .container{
     display: flex;
     background-color: black;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
+    width: 100vw;
 }
 
 .footer_title{

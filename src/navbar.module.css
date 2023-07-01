@@ -1,190 +1,190 @@
 .container {
-    display: flex;
-    border: 1px solid;
-    width: 97.5vw;
-    height: 10vh;
-    background-color: black;
-    opacity: .7;
-    align-items: center;
-    top: 0;
-    justify-content: space-around;
-    position: fixed;
+  display: flex;
+  border: 1px solid;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  opacity: .7;
+  align-items: center;
+  top: 0;
+  justify-content: space-around;
+  position: fixed;
 }
 
 
 .gymContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 
 .menuLinks {
-    display: flex;
-    /* flex: 1; */
-    align-items: center;
-    gap: 2rem;
-    margin-left: 1rem;
+  display: flex;
+  /* flex: 1; */
+  align-items: center;
+  gap: 2rem;
+  margin-left: 1rem;
 }
 
 .link {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-    /* background-color: antiquewhite; */
-    gap: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  /* background-color: antiquewhite; */
+  gap: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .link:hover {
-    text-decoration: underline;
-    color: rgb(228, 133, 9);
-    font-weight: 900;
+  text-decoration: underline;
+  color: rgb(228, 133, 9);
+  font-weight: 900;
 }
 
 .linkGym {
-  font-weight: 900;
-  cursor: pointer;
+font-weight: 900;
+cursor: pointer;
 }
 
 .gymIcon {
-    color: red;
+  color: red;
 }
 
 .joinBtn {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  /* background-color: antiquewhite; */
+display: flex;
+align-items: center;
+gap: 1rem;
+/* background-color: antiquewhite; */
 }
 
 
 .linkJoin {
-  background-color: red;
-  padding: 0.3rem;
-  border-radius: .4rem;
+background-color: red;
+padding: 0.3rem;
+border-radius: .4rem;
 }
 
 .linkJoin2 {
+display: flex;
+align-items: center;
+background-color: red;
+padding: 0.3rem;
+border-radius: .4rem;
+font-size: 1.2rem;
+color: white;
+font-weight: 700;
+cursor: pointer;
+}
+
+.linkJoin:hover {
+  color: rgb(51, 248, 12);
+  cursor: pointer;
+}
+
+.hamburger {
+  font-size: 2rem;
+  color: rgb(248, 243, 243);
+  cursor: pointer;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.desktopLinks {
   display: flex;
-  align-items: center;
+}
+
+.link:active {
+  color: green;
+}
+
+.logout {
+  border: none;
   background-color: red;
-  padding: 0.3rem;
-  border-radius: .4rem;
-  font-size: 1.2rem;
   color: white;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }
 
-.linkJoin:hover {
-    color: rgb(51, 248, 12);
-    cursor: pointer;
-}
 
-.hamburger {
-    font-size: 2rem;
-    color: rgb(248, 243, 243);
-    cursor: pointer;
+ @media screen and (max-width: 768px) {
+
+  .linkContainer {
+    flex-direction: column;
   }
-  
-  .mobileMenu {
+
+  .joinBtn {
+    flex-direction: column;
+  }
+
+  .menuLinks {
+    /* width: 119vw; */
+    right: 5;
+  }
+
+  .link {
+    margin: 0;
+    color: #583535;
+    padding: 0.5rem;
+    font-weight: 700;
+  }
+
+  .desktopLinks {
     display: none;
   }
-  
-  .desktopLinks {
-    display: flex;
+
+  .mobileMenu {
+    display: block;
+    position: relative;
+    right: 20%;
   }
 
-  .link:active {
-    color: green;
+  .hamburger {
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
   }
 
-  .logout {
-    border: none;
-    background-color: red;
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
+  .menuLinks {
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(201, 195, 188, 0.8);
+    top: 2rem;
+    left: -4rem;
+    margin-left: 0;
+    padding: 1.7rem;
+    gap: 1rem;
+    z-index: 999;
   }
 
-
-   @media screen and (max-width: 768px) {
-
-    .linkContainer {
-      flex-direction: column;
-    }
-
-    .joinBtn {
-      flex-direction: column;
-    }
-
-    .menuLinks {
-      /* width: 119vw; */
-      right: 5;
-    }
-  
-    .link {
-      margin: 0;
-      color: #583535;
-      padding: 0.5rem;
-      font-weight: 700;
-    }
-  
-    .desktopLinks {
-      display: none;
-    }
-  
-    .mobileMenu {
-      display: block;
-      position: relative;
-      right: 20%;
-    }
-
-    .hamburger {
-      position: absolute;
-      top: 50%;
-      
-      transform: translateY(-50%);
-    }
-  
-    .menuLinks {
-      position: absolute;
-      flex-direction: column;
-      background-color: rgb(201, 195, 188, 0.8);
-      top: 2rem;
-      left: -4rem;
-      margin-left: 0;
-      padding: 1.7rem;
-      gap: 1rem;
-      z-index: 999;
-    }
-  
-    .menuLinks.active {
-      left: 0;
-    }
+  .menuLinks.active {
+    left: 0;
   }
+}
 
-  .gymContainer {
-    align-items: start;
-  }
+.gymContainer {
+  align-items: start;
+}
 
-  .linkGym {
-    display: flex;
-    text-decoration: none;
-    color: rgb(228, 23, 23);
-    font-size: 1.5rem;
-    font-weight: 900;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.linkGym {
+  display: flex;
+  text-decoration: none;
+  color: rgb(228, 23, 23);
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .linkJoin {
-    text-decoration: none;
-    color: white;
-    font-weight: 900;
-    font-size: 1.3rem;
-    border: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-size: 1.3rem;
+  border: none;
 }

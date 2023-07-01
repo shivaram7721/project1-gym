@@ -6,7 +6,7 @@ export function Program() {
   return (
     <div id="program">
     <div className={styles.mainContainer}>
-      <h1>Programs section</h1>
+      <h1 className={styles.head}>Programs section</h1>
       
       <div className={styles.container}>
         {Data.map((item) => {

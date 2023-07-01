@@ -1,6 +1,6 @@
 
 .container {
-  /* width: 100vw; */
+  width: 100vw;
   background-color: black;
 }
 
@@ -8,7 +8,7 @@
 .aboutus {
   display: flex;
   align-items: center;
-  margin: 5rem 3rem 3rem 3rem;
+  margin: 0 3rem .5rem 3rem;
   background-color: black;
 }
 
