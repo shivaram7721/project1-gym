@@ -11,7 +11,7 @@ export function Login() {
 
   const [passError, setPassError] = useState("");
   const [emailError, setEmailError] = useState("");
-  const [match, setMatch] = useState("");
+  // const [match, setMatch] = useState("");
 
   const navigate = useNavigate();
 
@@ -99,7 +99,7 @@ export function Login() {
       <div className={styles.imgContainer}></div>
 
       <div className={styles.loginContainer}>
-        <h4 className={styles.match}>{match}</h4>
+        {/* <h4 className={styles.match}>{match}</h4> */}
         <h1 className={styles.logHead}>Login</h1>
         <form className={styles.formContainer} onSubmit={handleSubmit}>
           <label htmlFor="email"></label>

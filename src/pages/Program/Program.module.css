@@ -58,9 +58,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  /* .container { */
       /* flex-direction: column; */
-  }
+  /* } */
   .card {
       width: 97.5vw;
   }
