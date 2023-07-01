@@ -71,7 +71,7 @@ export function Pricing() {
     
     <button className={Style.btn} >{
 
-isLoginExists ? itr ? "Subscribed" : <p className={Style.btnSub} onClick={handleSubscribeDay}>Subscribe</p> : <p className={Style.btnsSub} onClick={()=>navigate('login')}>Get Started</p>
+isLoginExists ? itr ? <p className={Style.btnsSub}>Subscribed</p> : <p className={Style.btnSub} onClick={handleSubscribeDay}>Subscribe</p> : <p className={Style.btnsSub} onClick={()=>navigate('login')}>Get Started</p>
 
 }</button>
   </div>
@@ -90,7 +90,7 @@ isLoginExists ? itr ? "Subscribed" : <p className={Style.btnSub} onClick={handle
     ☑️ 24 Hours Access <br />
     </p>
     <button className={Style.btns} > {
-      isLoginExists ? itr ? "Subscribed" : <p className={Style.btnsSub} onClick={handleSubscribeMonthly}>Subscribe</p> : <p className={Style.btnsSub} onClick={()=>navigate('login')}>Get Started</p>
+      isLoginExists ? itr ? <p className={Style.btnsSub}>Subscribed</p> : <p className={Style.btnsSub} onClick={handleSubscribeMonthly}>Subscribe</p> : <p className={Style.btnsSub} onClick={()=>navigate('login')}>Get Started</p>
     } </button>
   </div>
   

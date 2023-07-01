@@ -1,7 +1,7 @@
 .scrollDiv {
     display: flex;
     flex-direction: column;
-    width: 97.5vw;
+    width: 100vw;
     background-color: black;
 }
 
@@ -33,6 +33,7 @@
     color: white;
     padding: 1rem;
     font-size: .7rem;
+    cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -40,6 +41,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
     justify-content: center;
     background-color: black;
 }

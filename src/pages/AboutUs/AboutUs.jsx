@@ -12,7 +12,7 @@ export function AboutUs() {
         </div>
 
         <div className={styles.right}>
-          <h1>
+          <h1 style={{color: "white"}}>
             {" "}
             About <span style={{ color: "red" }}>Us </span>{" "}
           </h1>
@@ -39,7 +39,7 @@ export function AboutUs() {
 
       <div className={styles.aboutus}>
         <div className={styles.right}>
-          <h1>
+          <h1 style={{color: "white"}}>
             Why to <span style={{ color: "red" }}>Choose</span> Us
           </h1>
           <br />
