@@ -5,7 +5,7 @@ import { Program } from './pages/Program/Program';
 import { Training } from './pages/Training/Training';
 import { Pricing } from './pages/Pricing/Pricing';
 import { Navbar } from './navbar';
-import { Day } from './pages/activity/Day';
+import { Day } from './pages/activity/day';
 import { Monthly } from './pages/activity/Monthly';
 import { Login } from './pages/login/Login';
 import { Register } from './pages/register/Register';
